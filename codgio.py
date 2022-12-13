@@ -6,5 +6,5 @@ for f in range(1,11):
 	
 st.write("""# texto para probar app""")
 
-import mymodel is m
+import mymodel as m
 st.write(m.run(window=15)
