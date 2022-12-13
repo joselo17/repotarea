@@ -5,4 +5,4 @@ st.write("""# texto para probar app""")
 window=st.slider("heloo desliza")
 st.write(m.run(window=window))
 
-pip install mymodel
+install mymodel
