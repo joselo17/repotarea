@@ -3,7 +3,7 @@ import streamlit as st
 st.write("""# PRUEBA MUNDO MI PODER""")
 
 st.markdown("<h1 style='text-align: center; color: grey;'>Big headline</h1>", unsafe_allow_html=True)
-
+st.markdown("<center> <h1>prueba de titulo</h1> </center>")
 st.markdown("<h2 style='text-align: center; color: black;'>Smaller headline in black </h2>", unsafe_allow_html=True)
 
 st.write("""# texto para probar app""")
