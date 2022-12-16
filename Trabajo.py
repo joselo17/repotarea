@@ -531,6 +531,7 @@ fig, ax = plt.subplots()
 ax.hist(arr, bins=20)
 
 st.pyplot(fig)
+echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 
 #Mapa de calor de la correlacion de Pandas
 st.write("""### MAPA DE CALOR """)
