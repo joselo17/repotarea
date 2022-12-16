@@ -526,6 +526,9 @@ Nuestro_corr
 
 
 #Mapa de calor de la correlacion de Pandas
+st.write("""### MAPA DE CALOR """)
+
+st.write("""#### correlacion de Pandas """)
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy
@@ -538,10 +541,11 @@ cb.ax.tick_params(labelsize=14)
 plt.title('Correlacion Pandas', fontsize=16)
 plt.show()
 
+st.pyplot(f)
 
 # In[ ]:
 
-
+st.write("""#### correlacion nuestra """)
 import matplotlib.pyplot as plt
 f = plt.figure(figsize=(12,9))
 plt.matshow(Nuestro_corr, fignum=f.number)
@@ -551,6 +555,8 @@ cb = plt.colorbar()
 cb.ax.tick_params(labelsize=14)
 plt.title('Matriz de Correlación Nuestra ', fontsize=16)
 plt.show()
+
+st.pyplot(f)
 
 
 # ## 5.- RESULTADOS 
