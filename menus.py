@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[4]:
-pip install streamlit-option-menu
+install streamlit-option-menu
 
 import streamlit as st
 from streamlit_option_menu import option_menu
