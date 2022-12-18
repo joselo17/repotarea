@@ -5,7 +5,7 @@
 
 
 import streamlit as st
-import option_menu
+
 import streamlit.components.v1 as html
 from  PIL import Image
 import numpy as np
